@@ -74,7 +74,7 @@
 .menu nav ul li a:hover{
 	color: aqua;
 	background: #E2538D;
-	border-radius: 20%;
+	border-radius: 20Px;
 	border: 2px dashed black;
 }
 
