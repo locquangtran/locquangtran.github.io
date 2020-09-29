@@ -85,12 +85,12 @@
 	animation-duration: 0.75s;
 /*	background-color: rgba(0,0,0,0.0);*/
 	transition-delay: 0.25s;
-	transition: 0.5s;
+	transition-duration: 2s;
 	background-color:#8D93AB ;
 }
 #menu ul li a:hover{
 	color: aliceblue;
-	transition: 3s;
+	transition: 2s;
 }
 /*---------------*/
 .gioithieu {
@@ -141,10 +141,7 @@
 			  width: 100%;height: 100%;
 			}
 			body{ 
-			  background: rgb(246,230,180); 
-			  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,230,180,1)), color-stop(100%,rgba(33,10,102,1)));
-			  background: -webkit-linear-gradient(-45deg,  rgba(246,230,180,1) 0%,rgba(33,10,102,1) 100%); 
-/*			  background: linear-gradient(135deg,  rgba(246,230,180,1) 0%,rgba(33,10,102,1) 100%);   */
+			  background: aliceblue; 
 			}
 
 			.skills-circle-wrap{ 
@@ -349,7 +346,7 @@
 
 .sanpham {
 	width: 100%;
-	height: 600px;
+	height: 900px;
 	background-color: aliceblue;
 }
 .sanpham h1{
@@ -357,18 +354,18 @@
 	padding: 50px 0px 0px 200px;
 }
 .chup{
-	width: 1200px;
-	height: 500px;
+	width: 100%;
+	height: 900px;
 /*	background-color: #CE5E60;*/
 	margin-left: 165px;
 }
 
 .chup #anh a{
 	width: 300px;height: 300px;
-	background-color: aqua;
+/*	background-color: aqua;*/
 	float: left;
 	margin: 50px;
-	border-radius: 50px;
+	border-radius: 30px;
 }
 /*-------------------*/
 
@@ -389,17 +386,47 @@
 /*	background-color: #CE5E60;*/
 	margin-left: 165px;
 	float: left;
-	padding: 150px;
+	padding: 135px 0 100px 40px;
 }
 
 .hinh{
-	width: 400px;
+	width: 700px;
 	height: 600px;
 /*	background-color: aqua;*/
-	margin-left: 965px;
+	margin-left: 665px;
+}
+.hinh ul{
+	list-style: none;
+}
+.hinh ul li{
+	width: 120px;height: 22px;
+	float: left;
+	margin: 0px 40px 20px 10px;
+	text-align: center;
+	line-height: 5px;
+	padding-top: 23px;
+	border-radius: 20px;
+}
+.hinh ul li a{
+	text-decoration: none;
+	color: #000000;
+	font-family: ft2;
+    transition: all .3s;}
+.hinh ul li a:hover{
+	margin-left: 15px;
+	transition: all .7s;
+}
+.hinh ul li:hover{
+/*
+	background-color: #8D93AB;
+	margin-left: 10px;
+*/
 }
 .hinh img{
-	border-radius: 0pc 70px;
+	
+/*	border-radius: 0px 70px;*/
+	height: 40px;
+	width: 40px;
 }
  input{
 	font-family: ft2;
@@ -407,7 +434,7 @@
 	height: 50px;
 	border-radius: 15px;
 	border: 1px solid black;
-	 font-size: 20px;
+	font-size: 20px;
 }
  button{
 	width: 100px;
@@ -423,6 +450,7 @@ button:hover{
 	color:#2E2E2E;
 	box-shadow: 0 2px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	animation-duration: 0.75s;
+	transition-duration: 1.5s;
 	
 }
 .icon img:hover{
@@ -431,6 +459,26 @@ button:hover{
 .example-image:hover{
 	transform: scale(1.3);
 }
-
-
+/*-----back to top*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#D6E0F0 ;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+#myBtn:hover{
+	background-color: #8D93AB;
+	transition-delay: 2.5s;
+	color: aliceblue;
+}
+/*-----end back to top*/
 
